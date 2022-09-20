@@ -12,14 +12,13 @@ const columns = [
   { id: 'party', label: 'Party', minWidth: '50px' },
 ]
 
-const Results = ({ persons }) => {
+const Results = ({ persons, isError }) => {
   const [showDetails, setShowDetails] = useState([])
   const [toggleDetails, setToggeDetails] = useState(false)
 
   useEffect(() => {
     if (persons) {
       setShowDetails(persons)
-      console.log('updating => every time', persons)
     }
   }, [persons])
 
@@ -30,6 +29,9 @@ const Results = ({ persons }) => {
 
   if (!persons) {
     return <h3>Details not available</h3>
+  }
+  if (isError) {
+    return <p>Error, try again</p>
   }
 
   return (
