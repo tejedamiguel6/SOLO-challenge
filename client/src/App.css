@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.who-is {
+  padding: 10px;
+  color: #499eff;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.states {
+  width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #499eff;
+  margin-top: 7px;
+  color: #ffff;
+  appearance: none;
+  padding-left: 10px;
+  background-image: url('.././public/arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 15px;
+}
+
+.search select {
+  width: 135px;
+  padding-right: 15px;
+  text-align: center;
+
+  border-radius: 20px;
+  background-color: #499eff;
+  margin-top: 7px;
+  color: #ffff;
+  border: none;
+  appearance: none;
+
+  background-image: url('.././public/arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 15px;
+}
+
+.search button {
+  border: none;
+  width: 120px;
+  border-radius: 20px;
+  background-color: #499eff;
+  margin-top: 7px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.states option {
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  margin-top: 40px;
+  border: 1px solid #f4f4f5;
+  padding-top: 20px;
+  border-radius: 70px;
+}
+
+.person-btn {
+  border: 1px solid #499eff;
+  border-radius: 20px;
+  background-color: #499eff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  background-color: lightgrey;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.contact-info {
+  margin-top: -20px;
+}
+
+.contact-info h5 {
+  padding: 14px;
+  border-bottom: 1px solid #499eff;
+  text-align: left;
+}
